@@ -22,7 +22,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GAR_LOCATION: australia-southeast1 
-  GKE_CLUSTER: k8-demo-cluster
+  GKE_CLUSTER: k8s-demo-cluster
   GKE_ZONE: australia-southeast1-a
   DEPLOYMENT_NAME: k8s-demo
   REPOSITORY: k8s-demo
